@@ -114,4 +114,71 @@ An **IP address** (Internet Protocol address) is a unique identifier assigned to
   * Built-in security
   * No broadcast; uses multicast/anycast
   * Supports auto-configuration
+Sure! I’ve reorganized and polished your content to make it more readable, visually appealing, and structured. Here’s a cleaner version:
+
+---
+
+# **Public and Private IP Addresses**
+
+## **1. Public IP Address**
+
+A **public IP** is an address assigned to a device by an **Internet Service Provider (ISP)** and is used for communication over the internet. It is globally unique and can be accessed from anywhere in the world.
+
+### **Characteristics:**
+
+* Assigned by an ISP
+* Can be **static** (permanent) or **dynamic** (changes over time)
+* Used for **external communication**
+* Can be found using online tools like [WhatIsMyIP](https://www.whatismyip.com/)
+
+### **Example:**
+
+* ❌ `192.168.1.1` (private IP, not public)
+* ✅ `8.8.8.8` (Google’s public DNS server)
+
+---
+
+## **2. Private IP Address**
+
+A **private IP** is assigned to devices within a **local network** (e.g., home, office). These IPs are used for communication within the same network and **cannot be accessed directly from the internet**.
+
+### **Private IP Ranges (IPv4):**
+
+* **Class A:** 10.0.0.0 – 10.255.255.255
+* **Class B:** 172.16.0.0 – 172.31.255.255
+* **Class C:** 192.168.0.0 – 192.168.255.255
+
+### **Characteristics:**
+
+* Assigned by a router (via DHCP or manually)
+* Not directly accessible from the internet
+* Used for internal communication
+* Common in homes and offices
+
+### **Example:**
+
+* `192.168.1.100` (home network)
+* `10.0.0.5` (corporate network)
+
+---
+
+## **IP Address Classes**
+
+### **Public IP Address Classes:**
+
+| Class | Range                       |
+| ----- | --------------------------- |
+| A     | 1.0.0.0 – 126.255.255.255   |
+| B     | 127.0.0.0 – 191.255.255.255 |
+| C     | 192.0.0.0 – 223.255.255.255 |
+
+### **Private IP Address Classes:**
+
+| Class | Range                                                       |
+| ----- | ----------------------------------------------------------- |
+| A     | 10.0.0.0 – 10.255.255.255 <br> 100.64.0.0 – 100.127.255.255 |
+| B     | 172.16.0.0 – 172.31.255.255                                 |
+| C     | 192.168.0.0 – 192.168.255.255                               |
+
+---
 
